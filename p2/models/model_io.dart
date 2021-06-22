@@ -40,7 +40,7 @@ class ModelIO extends ChangeNotifier {
       up = await Dio().post(
         'https://api.imagga.com/v2/uploads',
         options: Options(
-          headers: {'Authorization' : 'Basic YWNjXzhkZTI2NDRmMzYwMmYwMTo1NzAxNzhjYTQyNzAxMTU3MDE1MTM2YzkwNGM1MzE3NA=='},
+          /* removed authorization for security reasons */
         ),
         data: fd,
       );
@@ -64,7 +64,7 @@ class ModelIO extends ChangeNotifier {
     var temp = await http.get(
       'https://api.imagga.com/v2/faces/detections?return_face_attributes=1&image_upload_id=$upload_id',
       headers: <String, String> {
-        'Authorization' : 'Basic YWNjXzhkZTI2NDRmMzYwMmYwMTo1NzAxNzhjYTQyNzAxMTU3MDE1MTM2YzkwNGM1MzE3NA==',
+                  /* removed authorization for security reasons */
       }
     );
 
