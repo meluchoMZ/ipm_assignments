@@ -1,0 +1,182 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2020 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# chris <christian.outeda@udc.es>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-27 14:49+0100\n"
+"PO-Revision-Date: 2020-10-27 14:49+0100\n"
+"Last-Translator: chris <christian.outeda@udc.es>\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: controller1.py:41
+msgid "No se puede conectar al servidor. Inténtelo más tarde"
+msgstr "Can't connect to the server. Try later"
+
+#: controller1.py:50 controller1.py:94 controller1.py:102
+msgid "Error al actualizar la lista de intervalos recientes"
+msgstr "Error updating the list of recently searched intervals"
+
+#: controller1.py:58
+msgid "SELECCIONE UN INTERVALO Y SU DIRECCIÓN"
+msgstr "SELECT AN INTERVAL AND ITS DIRECTION"
+
+#: controller1.py:60
+msgid "Intervalos recientes"
+msgstr "recently searched intervals"
+
+#: controller1.py:65
+msgid "Formato normal"
+msgstr "Standard format"
+
+#: controller1.py:66
+msgid "Formato corto"
+msgstr "Short format"
+
+#: controller1.py:79
+msgid "Por favor, seleccione un intervalo y su dirección"
+msgstr "plis, select an interval and its direction"
+
+#: controller1.py:82
+msgid "Por favor, seleccione un intervalo"
+msgstr "Plis, select an interval"
+
+#: controller1.py:85
+msgid "Por favor, seleccione la dirección del intervalo seleccionado"
+msgstr "Plis, select the direction of the interval selected "
+
+#: controller2.py:42
+msgid "Error: no se puede abrir la vista de intervalo"
+msgstr "Error: the interval view can't be opened"
+
+#: controller2.py:61
+msgid "Canciones relacionadas"
+msgstr "Related songs"
+
+#: controller2.py:62
+msgid "Favoritos"
+msgstr "Favorites"
+
+#: model1.py:33
+msgid "Segunda"
+msgstr "second"
+
+#: model1.py:34
+msgid "Tercera"
+msgstr "third"
+
+#: model1.py:35
+msgid "Cuarta"
+msgstr "fourth"
+
+#: model1.py:36
+msgid "Quinta"
+msgstr "fifth"
+
+#: model1.py:37
+msgid "Sexta"
+msgstr "sixth"
+
+#: model1.py:38
+msgid "Séptima"
+msgstr "seventh"
+
+#: model1.py:39
+msgid "Octava"
+msgstr "octave"
+
+#: model1.py:40
+msgid "mayor"
+msgstr "Major"
+
+#: model1.py:41
+msgid "menor"
+msgstr "Minor"
+
+#: model1.py:42
+msgid "j"
+msgstr "p"
+
+#: model1.py:42
+msgid "justa"
+msgstr "Perfect"
+
+#: model1.py:43
+msgid "a"
+msgstr "p"
+
+#: model1.py:44
+msgid "aumentada"
+msgstr "Augmented"
+
+#: model1.py:58
+msgid "ascendente"
+msgstr "ascending"
+
+#: model1.py:58
+msgid "descendente"
+msgstr "descending"
+
+#: model1.py:137
+msgid ", con una distancia de "
+msgstr ", with a distance of "
+
+#: model1.py:137
+msgid " tonos\n"
+msgstr " tones\n"
+
+#: model2.py:33 model2.py:34
+msgid "Do"
+msgstr "C"
+
+#: model2.py:35 model2.py:36
+msgid "Re"
+msgstr "D"
+
+#: model2.py:37
+msgid "Mi"
+msgstr "E"
+
+#: model2.py:38 model2.py:39
+msgid "Fa"
+msgstr "F"
+
+#: model2.py:40 model2.py:41
+msgid "Sol"
+msgstr "G"
+
+#: model2.py:42 model2.py:43
+msgid "La"
+msgstr "A"
+
+#: model2.py:44
+msgid "Si"
+msgstr "B"
+
+#: model2.py:97
+msgid " tono"
+msgstr " tone"
+
+#: model2.py:99
+msgid " tonos"
+msgstr " tones"
+
+#: model2.py:102 model2.py:105
+msgid " semitono"
+msgstr " semitone"
+
+#: model2.py:105
+msgid " y "
+msgstr " and "
+
+#: view2.py:125
+msgid "Escúchame!"
+msgstr "Listen!"

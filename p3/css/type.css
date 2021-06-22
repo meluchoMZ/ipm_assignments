@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+.navBar {
+	background-color: #006400;
+}
+
+h1 {
+	background-color: #006400;
+	color: white;
+	padding: 14px 16px;
+	text-align: left;
+	font-family: "Libre Baskerville", serif;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #006400;
+	font-family: "Josefin Sans", sans-serif;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #79BD8F;
+}
+
+h2 {
+	color: black;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+h3 {
+	color: black;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+table {
+	overflow-y: auto;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	font-family: "Josefin Sans", sans-serif;
+}
+thead tr td {
+	position: sticky;
+	top: 0;
+	background: #79BD8F;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+}
+tbody tr td {
+	border: 1px solid black;
+	padding: 8px 16px;
+	text-align: center;
+	grid-row-end: auto;
+}
+
+a {
+	font-family: "Josefin Sans", sans-serif;
+	color: #FF6138;
+}
+
+img {
+    max-width: 100%;
+	max-height: 100%;
+	align-content: center;
+}
+
+@media screen and (max-width: 720px){
+	body {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 720px){
+	body {
+		max-width: 3000px;
+	}
+	.group{
+		max-width: 2000px;
+	}
+
+	#half_from_relations,#double_to_relations,#no_from_relations{
+		display: inline-grid;
+		padding: 1%;
+	}
+
+	#half_from_relations{
+		width: 30.9%;
+	}
+	#double_to_relations{
+		width: 31.0%;
+	}
+	#no_from_relations{
+		width: 29.2%;
+	}
+
+	#half_to_relations,#double_from_relations,#no_to_relations{
+		display: inline-grid;
+		padding: 1%;
+	}
+
+	#half_to_relations{
+		width: 29.2%;
+	}
+	#double_from_relations{
+		width: 34.03%;
+	}
+	#no_to_relations{
+		width: 27%;
+	}
+	table{
+		max-width: 2000px;
+	}
+
+}

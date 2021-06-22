@@ -1,0 +1,13 @@
+table, th, td {
+	border: 1px solid black;
+	text-align: center;
+}
+h2 {
+	display: inline-block;
+}
+button {
+	margin: 20px;
+}
+a {
+	margin: 10px;
+}

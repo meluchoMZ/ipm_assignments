@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+.navBar {
+	background-color: #006400;
+}
+h1 {
+	background-color: #006400;
+	color: white;
+	padding: 14px 16px;
+	font-family: "Libre Baskerville", serif;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #006400;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #79BD8F;
+}
+
+body {
+	text-align: center;
+}
+.pokemon {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+table {
+	overflow-y: auto;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Josefin Sans", sans-serif;
+	width: 100%;
+}
+thead tr td {
+	position: sticky;
+	top: 0;
+	background: #79BD8F;
+	color: white;
+	text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+}
+tr, td {
+	border: 1px solid #2C3E50;
+	padding: 8px 16px;
+}
+button {
+	margin: 20px;
+}
+a {
+	font-family: "Josefin Sans", sans-serif;
+	color: #FF6138;
+}
+body {
+	background-color: white;
+}
+h2 {
+	font-family: "Libre Baskerville", serif;
+	display: inline-block;
+	color: black;
+}
+p {
+	color: black;
+	font-family: "Josefin Sans", sans-serif;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card img {
+	object-fit: cover;
+	width: 100%;
+}
+.container {
+	padding: 2px 16px;
+	text-align: center;
+}
+h4 {
+	font-family: "Josefin Sans", sans-serif;
+}
+@media (min-width: 720px) {
+	body {
+		display: grid;
+		grid-gap: 10px;
+		grid-template-columns: 50% 50%;
+		grid-template-areas:
+		"header header"
+		"poke attributes"
+		"stats abilities"
+		"sprites sprites"
+		"moves desc";
+		text-align: center;
+	}
+	.navBar {
+		grid-area: header;
+		text-align: left;
+	}
+	.identifyers {
+		grid-area: poke;
+		margin: 5em;
+	}
+	.attributes {
+		grid-area: attributes;
+		margin: 5em;
+	}
+	.stats {
+		grid-area: stats;
+		margin: 5em;
+	}
+	.abilities {
+		grid-area: abilities;
+		margin: 5em;
+	}
+	.sprites {
+		grid-area: sprites;
+		margin: 5em;
+	}
+	.card {
+		width: 30%;
+		display: inline-block;
+		margin: 3%;
+	}
+	.moves {
+		grid-area: moves;
+		margin: 5em;
+	}
+	.desc {
+		grid-area: desc;
+		margin: 5em;
+	}
+}

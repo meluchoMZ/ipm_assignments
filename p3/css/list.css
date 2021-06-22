@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+.navBar {
+	background-color: #006400;
+}
+h1 {
+	background-color: #006400;
+	color: white;
+	padding: 14px 16px;
+	text-align: left;
+	font-family: "Libre Baskerville", serif;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #006400;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #79BD8F;
+}
+
+body {
+	text-align: center;
+}
+table {
+	overflow-y: auto;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+thead tr td {
+	position: sticky;
+	top: 0;
+	background: #79BD8F;
+	color: white;
+	text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+}
+tr, td {
+	border: 1px solid black;
+	padding: 8px 16px;
+}
+button {
+	margin: 20px;
+	color: black;
+	border: none;
+	background-color: white;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	vertical-align: top;
+}
+a {
+	font-family: "Josefin Sans", sans-serif;
+	color: #FF6138;
+}
+h2 {
+	font-family: "Libre Baskerville", serif;
+	display: inline-block;
+	color: black;
+}
+p {
+	color: black;
+	font-family: "Josefin Sans", sans-serif;
+}
+.textInput {
+	background-image: url('../assets/loupe.png');
+	background-position: 8px 8px;
+	background-repeat: no-repeat;
+	width: 100%;
+	font-size: 16px;
+	font-family: "Josefin Sans", sans-serif;
+	border: 1px solid black;
+	margin-bottom: 12px;
+	padding: 12px 20px 12px 40px;
+}
+.searchSelector {
+	display: inline-block;
+	font-family: "Josefin Sans", sans-serif;
+}
+@media (min-width: 720px) {
+	body {
+		display: grid;
+		grid-gap: 10px;
+		grid-template-areas:
+		"header header"
+		"sidebar content"
+		"sidebar contento";
+	}
+	.navBar {
+		grid-area: header;
+		/*
+		z-index: 1;
+		width: 25%;
+		overflow-y: fixed;
+		position: fixed;*/
+	}
+	.introText {
+		grid-area: content;
+		/*
+		float: right;
+		width: 70%;
+		text-align: left;
+		*/
+	}
+	.searchEngine {
+		grid-area: sidebar;
+		/*
+		float: left;
+		width: 20%;
+		position: fixed;
+		overflow-x: fixed;
+		height: 40%;
+		z-index: 1;
+		top: 10em;
+		left: 0;
+		vertical-align: center;
+		padding-top: 300px;
+		margin: 20px;
+		*/
+	}
+	.divGenerations {
+		grid-area: contento;
+	}
+	table {
+		width: 80%;
+	}
+	ul {
+		overflow: auto;
+	}
+	ul {
+		width: 100%;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #006400;
+	}
+	li {
+		float: left;
+	}
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: #79BD8F;
+	}
+}

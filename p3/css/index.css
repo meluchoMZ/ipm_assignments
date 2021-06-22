@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+.navBar {
+	background-color: #006400;
+}
+h1 {
+	background-color: #006400;
+	color: white;
+	padding: 14px 16px;
+	font-family: "Libre Baskerville", serif;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #006400;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Josefin Sans", sans-serif;
+}
+li a:hover {
+	background-color: #79BD8F;
+}
+h2 {
+	text-align: center;
+	font-family: "Libre Baskerville", serif;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+p {
+	text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+}
+@media (min-width: 720px) {
+	h1 {
+		font-size: 40px;
+	}
+	li a {
+		font-size: 20px;
+	}
+	.divImage {
+		float: right;
+		width: 35%;
+		display: inline-block;
+		padding: 34px 20px;
+	}
+	.divText {
+		width: 60%;
+		display: inline-block;
+	}
+	h2 {
+		text-align: left;
+		font-size: 30px;
+	}
+	p {
+		text-align: left;
+		font-family: "Josefin Sans", sans-serif;
+		font-size: 20px;
+	}
+	body {
+		text-align: left;
+		display: inline-block;
+	}
+}
